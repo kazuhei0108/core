@@ -134,6 +134,7 @@ function setup_autoloader()
 		'Fuel\\Core\\Cache_Storage_Apc'         => COREPATH.'classes/cache/storage/apc.php',
 		'Fuel\\Core\\Cache_Storage_File'        => COREPATH.'classes/cache/storage/file.php',
 		'Fuel\\Core\\Cache_Storage_Memcached'   => COREPATH.'classes/cache/storage/memcached.php',
+        'Fuel\\Core\\Cache_Storage_Memcachier'   => COREPATH.'classes/cache/storage/memcachier.php',
 		'Fuel\\Core\\Cache_Storage_Redis'       => COREPATH.'classes/cache/storage/redis.php',
 		'Fuel\\Core\\Cache_Storage_Xcache'      => COREPATH.'classes/cache/storage/xcache.php',
 
